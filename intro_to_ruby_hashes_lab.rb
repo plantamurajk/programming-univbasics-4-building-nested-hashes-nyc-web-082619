@@ -33,4 +33,5 @@ def monopoly_with_fourth_tier
   # complexity.
   hash = monopoly_with_third_tier[:railroads][:names]
   hash[:reading_railroad] = {"mortgage_value" => "$100"}
+  hash[:pennsylvania_railroad] = {
 end
